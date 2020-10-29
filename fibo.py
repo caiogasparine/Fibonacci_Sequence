@@ -1,10 +1,12 @@
+# Fibonacci Sequence Calculation
+
 if __name__ == '__main__':
     n = int(input("How many numbers do you want to display? "))
     n1, n2 = 0, 1
     count = 0
     # check if the number of values is > 0
     if n <= 0:
-        print("Please enter a positive integer")
+        print("Please enter a number > 0")
     elif n == 1:
         print("Fibonacci Sequence ", n, ":")
         print(n1)
